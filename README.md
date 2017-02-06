@@ -17,8 +17,8 @@ A query filter is sent as a POST request JSON message body.
 	"actionTypes": ["Cohesion Fund (CF)", "Food and Feed"],
 	"fundingTypes": ["Grants", "Provisional commitment followed by payment"],
 	"amount": {
-		gte: 50000,
-		lte: 100000
+		"gte": 50000,
+		"lte": 100000
 	},
 	sortBy: ["year", "territory"],
 	order: "asc"
@@ -35,8 +35,7 @@ A query filter is sent as a POST request JSON message body.
 		"max": 80000,
 		"avg": 60000
 	},
-	"results": [
-		{
+	"results": [{
 			"years": 2015,
 			"territory": "Croatia",
 			"beneficiary": "AB AMBER GRID",
