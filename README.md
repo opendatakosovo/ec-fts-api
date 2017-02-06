@@ -33,7 +33,7 @@ A query filter is sent as a POST request JSON message body.
 		"total": 120000,
 		"min": 40000,
 		"max": 80000,
-		"avg": 
+		"avg": 60000
 	},
 	"results": [
 		{
