@@ -9,7 +9,7 @@ A query filter is sent as a POST request JSON message body.
 ```json
 {
 	"years": [2015, 2016],
-	"territories": ["Albania", "Bosnia and Herzegovina", "Croatia", "Kosovo", "Macedonia", "Montenegro", and "Serbia"],
+	"territories": ["Albania", "Bosnia and Herzegovina", "Croatia", "Kosovo", "Macedonia", "Montenegro", "Serbia"],
 	"beneficiaries": ["AB AMBER GRID", "LITGRID AB*"],
 	"expenseTypes": ["Operational", "Administrative"],
 	"responsibleDeptartments": ["Innovation and Networks Executive Agency"],
