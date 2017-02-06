@@ -1,5 +1,5 @@
-# ec-fts-api
-An API to access data used by the European Commission's Financial Transparency System (FTS).
+# API for the European Commission's Financial Transparency System 
+An API to access data used by the [European Commission's Financial Transparency System (FTS)](http://ec.europa.eu/budget/fts/index_en.htm).
 
 # POST /api/ec/fts
 
