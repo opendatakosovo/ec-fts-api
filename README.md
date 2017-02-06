@@ -12,7 +12,7 @@ A query filter is sent as a POST request JSON message body.
 	"territories": ["Albania", "Bosnia and Herzegovina", "Croatia", "Kosovo", "Macedonia", "Montenegro", "Serbia"],
 	"beneficiaries": ["AB AMBER GRID", "LITGRID AB*"],
 	"expenseTypes": ["Operational", "Administrative"],
-	"responsibleDeptartments": ["Innovation and Networks Executive Agency"],
+	"responsibleDepartments": ["Innovation and Networks Executive Agency"],
 	"budgetLines": ["Sustainable energy"],
 	"actionTypes": ["Cohesion Fund (CF)", "Food and Feed"],
 	"fundingTypes": ["Grants", "Provisional commitment followed by payment"],
@@ -40,7 +40,7 @@ A query filter is sent as a POST request JSON message body.
 			"territory": "Croatia",
 			"beneficiary": "AB AMBER GRID",
 			"expenseType": "Operational",
-			"responsibleDeptartment": "Innovation and Networks Executive Agency",
+			"responsibleDepartment": "Innovation and Networks Executive Agency",
 			"budgetLine": "Sustainable energy",
 			"actionTypes": "Cohesion Fund (CF)",
 			"fundingTypes": "Grants",
@@ -50,7 +50,7 @@ A query filter is sent as a POST request JSON message body.
 			"territory": "Kosovo",
 			"beneficiary": "LITGRID AB*",
 			"expenseType": "Operational",
-			"responsibleDeptartment": "Innovation and Networks Executive Agency",
+			"responsibleDepartment": "Innovation and Networks Executive Agency",
 			"budgetLine": "Sustainable energy",
 			"actionTypes": "Cohesion Fund (CF)",
 			"fundingTypes": "Grants",
@@ -88,7 +88,7 @@ Get list of expense types and their total amount for a given year.
 }
 ```
 
-## GET /api/ec/fts/&lt;year:int&gt;/responsible-deptartments
+## GET /api/ec/fts/&lt;year:int&gt;/responsible-departments
 
 Get list of responsible departments and their total amount for a given year.
 
