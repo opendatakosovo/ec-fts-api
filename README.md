@@ -9,7 +9,7 @@ A query filter is sent as a POST request JSON message body.
 ```json
 {
 	"years": [2015, 2016],
-	"territories: ["Albania", "Bosnia and Herzegovina", "Croatia", "Kosovo", "Macedonia", "Montenegro", and "Serbia"],
+	"territories": ["Albania", "Bosnia and Herzegovina", "Croatia", "Kosovo", "Macedonia", "Montenegro", and "Serbia"],
 	"beneficiaries": ["AB AMBER GRID", "LITGRID AB*"],
 	"expenseTypes": ["Operational", "Administrative"],
 	"responsibleDeptartments": ["Innovation and Networks Executive Agency"],
@@ -25,7 +25,7 @@ A query filter is sent as a POST request JSON message body.
 }
 ```
 
-## Sample Response JSON (not reflective of actual data)
+## Sample Response JSON (not representative of actual data):
 ```json
 {
 	"count": 2,
@@ -35,10 +35,10 @@ A query filter is sent as a POST request JSON message body.
 		"max": 80000,
 		"avg": 
 	},
-	results: [
+	"results": [
 		{
 			"years": 2015,
-			"territory: "Croatia",
+			"territory": "Croatia",
 			"beneficiary": "AB AMBER GRID",
 			"expenseType": "Operational",
 			"responsibleDeptartment": "Innovation and Networks Executive Agency",
@@ -48,7 +48,7 @@ A query filter is sent as a POST request JSON message body.
 			"amount": 40000
 		},{
 			"years": 2016,
-			"territory: "Kosovo",
+			"territory": "Kosovo",
 			"beneficiary": "LITGRID AB*",
 			"expenseType": "Operational",
 			"responsibleDeptartment": "Innovation and Networks Executive Agency",
