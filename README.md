@@ -64,21 +64,9 @@ A query filter is sent as a POST request JSON message body.
 # TODO:
 Allow for filter parameter that defines grouping of results, e.g. group by budget line.
 
-# GET /api/ec/fts/<year:int>/<territory:int>/beneficiaries
+# GET /api/ec/fts/&lt;year:int&gt;/&lt;territory-slug:string&gt;/beneficiaries
 
-Get list of beneficiaries for given year and territory.
-
-## Sample response (TODO):
-```json
-{
-	"count": 0,
-	"results": []  
-}
-```
-
-# GET /api/ec/fts/<year:int>/expenseTypes
-
-Get list of expense types for given year.
+Get list of beneficiaries and their total amount for a given year and territory.
 
 ## Sample response (TODO):
 ```json
@@ -88,21 +76,9 @@ Get list of expense types for given year.
 }
 ```
 
-# GET /api/ec/fts/<year:int>/responsibleDeptartments
+# GET /api/ec/fts/&lt;year:int&gt;/expense-types
 
-Get list of responsible departments for given year.
-
-## Sample response (TODO):
-```json
-{
-	"count": 0,
-	"results": []  
-}
-```
-
-# GET /api/ec/fts/<year:int>/budgetLines
-
-Get list of budget lines for given year.
+Get list of expense types and their total amount for a given year.
 
 ## Sample response (TODO):
 ```json
@@ -112,9 +88,33 @@ Get list of budget lines for given year.
 }
 ```
 
-# GET /api/ec/fts/<year:int>/actionTypes
+# GET /api/ec/fts/&lt;year:int&gt;/responsible-deptartments
 
-Get list of action types for given year.
+Get list of responsible departments and their total amount for a given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/&lt;year:int&gt;/budget-lines
+
+Get list of budget lines and their total amount for a given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/&lt;year:int&gt;/action-types
+
+Get list of action types and their total amount for a given year.
 
 ## Sample response (TODO):
 ```json
