@@ -20,8 +20,8 @@ A query filter is sent as a POST request JSON message body.
 		"gte": 50000,
 		"lte": 100000
 	},
-	sortBy: ["year", "territory"],
-	order: "asc"
+	"sortBy": ["year", "territory"],
+	"order": "asc"
 }
 ```
 
@@ -63,3 +63,63 @@ A query filter is sent as a POST request JSON message body.
 
 # TODO:
 Allow for filter parameter that defines grouping of results, e.g. group by budget line.
+
+# GET /api/ec/fts/<year:int>/<territory:int>/beneficiaries
+
+Get list of beneficiaries for given year and territory.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/<year:int>/expenseTypes
+
+Get list of expense types for given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/<year:int>/responsibleDeptartments
+
+Get list of responsible departments for given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/<year:int>/budgetLines
+
+Get list of budget lines for given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
+
+# GET /api/ec/fts/<year:int>/actionTypes
+
+Get list of action types for given year.
+
+## Sample response (TODO):
+```json
+{
+	"count": 0,
+	"results": []  
+}
+```
