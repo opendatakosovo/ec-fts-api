@@ -1,11 +1,11 @@
 # API for the European Commission's Financial Transparency System 
 An API to access data used by the [European Commission's Financial Transparency System (FTS)](http://ec.europa.eu/budget/fts/index_en.htm).
 
-# POST /api/ec/fts
+## POST /api/ec/fts
 
 A query filter is sent as a POST request JSON message body.
 
-## Sample JSON query filter:
+### Sample JSON query filter:
 ```json
 {
 	"years": [2015, 2016],
@@ -25,7 +25,7 @@ A query filter is sent as a POST request JSON message body.
 }
 ```
 
-## Sample Response JSON (not representative of actual data):
+### Sample Response JSON (not representative of actual data):
 ```json
 {
 	"count": 2,
@@ -61,14 +61,14 @@ A query filter is sent as a POST request JSON message body.
 ```
 
 
-# TODO:
+### TODO:
 Allow for filter parameter that defines grouping of results, e.g. group by budget line.
 
-# GET /api/ec/fts/&lt;year:int&gt;/&lt;territory-slug:string&gt;/beneficiaries
+## GET /api/ec/fts/&lt;year:int&gt;/&lt;territory-slug:string&gt;/beneficiaries
 
 Get list of beneficiaries and their total amount for a given year and territory.
 
-## Sample response (TODO):
+### Sample response (TODO):
 ```json
 {
 	"count": 0,
@@ -76,11 +76,11 @@ Get list of beneficiaries and their total amount for a given year and territory.
 }
 ```
 
-# GET /api/ec/fts/&lt;year:int&gt;/expense-types
+## GET /api/ec/fts/&lt;year:int&gt;/expense-types
 
 Get list of expense types and their total amount for a given year.
 
-## Sample response (TODO):
+### Sample response (TODO):
 ```json
 {
 	"count": 0,
@@ -88,11 +88,11 @@ Get list of expense types and their total amount for a given year.
 }
 ```
 
-# GET /api/ec/fts/&lt;year:int&gt;/responsible-deptartments
+## GET /api/ec/fts/&lt;year:int&gt;/responsible-deptartments
 
 Get list of responsible departments and their total amount for a given year.
 
-## Sample response (TODO):
+### Sample response (TODO):
 ```json
 {
 	"count": 0,
@@ -100,11 +100,11 @@ Get list of responsible departments and their total amount for a given year.
 }
 ```
 
-# GET /api/ec/fts/&lt;year:int&gt;/budget-lines
+## GET /api/ec/fts/&lt;year:int&gt;/budget-lines
 
 Get list of budget lines and their total amount for a given year.
 
-## Sample response (TODO):
+### Sample response (TODO):
 ```json
 {
 	"count": 0,
@@ -112,11 +112,11 @@ Get list of budget lines and their total amount for a given year.
 }
 ```
 
-# GET /api/ec/fts/&lt;year:int&gt;/action-types
+## GET /api/ec/fts/&lt;year:int&gt;/action-types
 
 Get list of action types and their total amount for a given year.
 
-## Sample response (TODO):
+### Sample response (TODO):
 ```json
 {
 	"count": 0,
