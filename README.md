@@ -1,6 +1,9 @@
 # API for the European Commission's Financial Transparency System 
 An API to access data used by the [European Commission's Financial Transparency System (FTS)](http://ec.europa.eu/budget/fts/index_en.htm).
 
+Download the raw data by clicking on the "download" hyperlink in their website's [help page](http://ec.europa.eu/budget/fts/help_en.htm).
+
+
 ## POST /api/ec/fts
 
 A query filter is sent as a POST request JSON message body.
